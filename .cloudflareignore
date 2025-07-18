@@ -26,3 +26,16 @@ yarn-error.log*
 pnpm-debug.log*
 .idea/
 .vscode/
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore Next.js internal build caches and temporary files
+.next/cache/
+.next/standalone/
+.next/trace/
+.next/server/
+
+# Specifically ignore output from vercel build which next-on-pages uses
+.vercel/output/
+.vercel/
